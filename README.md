@@ -4,7 +4,7 @@ A responsive restaurant website built with **HTML**, **CSS**, and a little **Jav
 Created as a first-year group project for [Course Name]. I was responsible for the full design and development.
 
 ## 🌐 Live Demo
-[View Website](https://github.com/Tonton21-afk/The-aviary) 
+[View Website](https://tonton21-afk.github.io/The-aviary/) 
 
 ## ✨ Features
 - Hero section with welcome message
