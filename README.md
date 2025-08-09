@@ -15,7 +15,6 @@ Created as a first-year group project for our final project in first year. I was
 - Navigation bar linking to all sections
 - Exclusive Discounts cards with copy-to-clipboard
 - Best Seller section with dish images
-- Responsive design for desktop and mobile
 - Smooth hover effects and animations
 
 ## 🧰 Tech Stack
