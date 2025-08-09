@@ -1,7 +1,7 @@
 # The Aviary — Restaurant Website
 
 A restaurant website built with **HTML**, **CSS**, and a little **JavaScript** for interactive features.  
-Created as a first-year group project for [Course Name]. I was responsible for the full design and development.
+Created as a first-year group project for our final project in first year. I was the lead, responsible for the full design and development.
 
 > **Disclaimer:** The background video used in this project is sourced from YouTube 
 > and is used for educational purposes only as part of a first-year web development course. 
