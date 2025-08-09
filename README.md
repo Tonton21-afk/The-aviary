@@ -1,7 +1,11 @@
 # The Aviary — Restaurant Website
 
-A responsive restaurant website built with **HTML**, **CSS**, and a little **JavaScript** for interactive features.  
+A restaurant website built with **HTML**, **CSS**, and a little **JavaScript** for interactive features.  
 Created as a first-year group project for [Course Name]. I was responsible for the full design and development.
+
+> **Disclaimer:** The background video used in this project is sourced from YouTube 
+> and is used for educational purposes only as part of a first-year web development course. 
+> All rights belong to the original creator.
 
 ## 🌐 Live Demo
 [View Website](https://tonton21-afk.github.io/The-aviary/) 
