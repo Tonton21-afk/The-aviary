@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="reservation.css" type="text/css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <script>
+    window.addEventListener("scroll",function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  })
+  </script>
+    <header>
+        <div class="logo">
+          <img src="aviary_logo_modified.png" alt="Logo">
+      </div>
+      <ul class="nav_area">
+        <li><a  href="test.html">HOME</a></li>                     
+        <li><a href="food.html">MENU </a></li>
+        <li><a class="active"href="#">RESERVATIONS</a></li>
+        <li><a href="about us.html">ABOUT US</a></li>
+        <li><a href="contacts.html">CONTACT US</a></li>             
+      </ul>
+      </header>
+      <!--end of nav-->
+  <!--end of nav-->
+
+  <!--start of form-->
+<body>
+    <div id="container">
+            <form action="#" id="Reservation_form">
+                <h1 class="R-h1">Reservation Form</h1>
+               <!-- <h4 class="R-h4">The purpose of this reservation is to ensure that you are seroius about</h4>-->
+                <div class="elem-group1">
+                    <label for="name">Complete Name</label>
+                    <input type="text" id="name" name="visitor_name" placeholder="Enter Your Full Name" required>
+                  </div>
+                  <div class="elem-group2">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="visitor_email" placeholder="Enter Your Email" required>
+                  </div>
+                  <div class="elem-group3">
+                    <label for="phone">Contact #</label>
+                    <input type="tel" id="phone" name="visitor_phone" placeholder="Enter Your Number" required>
+                  </div>
+                  <div class="elem-group4">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="Date" required>
+                  </div>
+                  <div class="elem-group5">
+                    <label for="time">Time</label>
+                    <input type="time" id="reservation-time" name="Reservation" required>
+                  </div>
+                  <div class="elem-group6">
+                    <label for="purpose-selection">Purpose</label>
+                    <select id="purpose-selection" name="purpose_preference" required>
+                        <option value="">Choose from the List</option>
+                        <option value="Birthday">Birthday</option>
+                        <option value="Dinner Date">Dinner Date</option>
+                        <option value="Wedding">Wedding</option>
+                    </select>
+                  </div>
+                    <div class="elem-group inlined">
+                    <label for="adult">Adults</label>
+                    <input type="number" id="adult" name="total_adults" placeholder="# of Adults" min="1" required>
+                  </div>
+                  <div class="elem-group inlined">
+                    <label for="child">Children</label>
+                    <input type="number" id="child" name="total_children" placeholder="# of Children" min="0" required>
+                  </div>
+                  <div class="elem-group inlined">
+                    <label for="downp">Down Payment</label>
+                    <input type="number" id="Payment" name="total_Payment" placeholder="Min of 200" min="200" max="1000" required>
+                  </div>
+                  <div class="voucher">
+                    <label for="voucher">Have Coupon?</label>
+                    <input type="voucher" id="Payment" name="total_Payment" placeholder="Coupon Code" required>
+                  </div>
+                  <button class="btnn" type="submit">SUBMIT</button>
+        </form>
+
+
+       
+    </div>
+ 
+
+
+</body>
+
+  <!--end of form-->
+
+
+  <!--start of footer-->
+<footer class="footer">
+    <div class="footer__addr">
+      <h1 class="footer__logo">The Aviary</h1>
+    </div>
+    
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title1">Follow Us</h2>
+  
+        <ul class="nav__ul2">
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100088494545441" target="_blank"><i class="fab fa-facebook"></i></a>
+          </li>
+  
+          <li>
+            <a href="https://twitter.com/aviaryldn?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+          </li>
+              
+          <li>
+            <a href="https://www.instagram.com/aviaryofficial/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </li>
+      
+      
+      
+      
+      
+  
+    
+    <div class="legal">
+      <p>&copy; 2023 The Aviary. All rights reserved.</p>
+      
+      <div class="legal__links">
+        <span>Made by <span class="heart">♥</span> Aviary</span>
+      </div>
+    </div>
+  </footer>
+  
+  
+    
+  </body>
+  </html>

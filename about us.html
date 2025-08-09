@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+  <link href="about us.css" rel="stylesheet" type="text/css">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    window.addEventListener("scroll",function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  })
+  </script>
+    <!-----nav and home------->
+  <header>
+    <div class="logo">
+      <img src="aviary_logo_modified.png" alt="Logo">
+  </div>
+  <ul class="nav_area">
+    <li><a href="test.html">HOME</a></li>                     
+    <li><a href="food.html">MENU </a></li>
+    <li><a href="reservations.html">RESERVATIONS</a></li>
+    <li><a class="active" href="about us.html">ABOUT US</a></li>
+    <li><a href="contacts.html">CONTACT US</a></li>                 
+  </ul>
+  </header>
+  <!--end of nav-->
+
+  <!--CONTENT-->
+  <div class = "content" >
+    <h1 class="content h1">About Us</h1>
+<div class="contacts">
+    <div class="container2">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title">What is the meaning of Aviary?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                A structure for the keeping of captive birds, usually spacious enough for the aviculturist to enter.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-2" aria-expanded="false">
+              <span class="accordion-title">Why did you choose it to be your Restaurant's name?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Because just like birds we have our own freedom,
+                and the aviary or birdhouse somehow shows that we have the same living as them,
+                and we can also see that our restaurant can be your Aviary.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-3" aria-expanded="false">
+              <span class="accordion-title">What is the purpose of your Restaurant?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                This restaurant would source all of its ingredients from local farms and suppliers.
+                 The restaurant could feature a cozy, rustic decor and serve dishes made from scratch using fresh, locally sourced ingredients.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false">
+              <span class="accordion-title">What is your Specialty?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                a combination of delicious food and excellent customer service provided by a well-trained and professional staff can help
+                 create a memorable dining experience and keep customers coming back to your restaurant.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="team.js"></script>
+</div>
+  <!--TEAM SECTION-->
+  <div class="team-title">
+    <h1>Our Team</h1>
+  </div>
+  <section class="team">
+    <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+            <div class="swiper-slide card">
+                <div class="box1"></div>
+                <div class="card-content">
+                    <div class="image">
+                        <img src="zhyyy.png" alt="">
+                    </div>
+                    <div class="media-icons">
+                      <a href="https://www.linkedin.com/in/zhyrex-mercurio-calamiong-7ab745257?fbclid=IwAR39RcslI-O7rjGAj1Plj5SgykiPK5zSQoyvObriYpziz0yJxWgmDX9qOKg/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                    </div>
+                    <div class="name-profession">
+                        <span class="name">Zhyrex Calamiong</span>
+                        <span class="profession">Project Manager</span>
+                    </div>
+                  
+                    <div class="about">
+                        <p>His area of ​​expertise focuses on creative ideas into workable solutions and offers intelligent transitions between concept and execution.</p>
+                    </div>
+      
+                </div>
+            </div>
+
+            <div class="swiper-slide card">
+                <div class="box2"></div>
+                <div class="card-content">
+                    <div class="image">
+                      <img src="idd_Anthony.png" alt="">
+                    </div>
+                    <div class="media-icons">
+                      <a href="https://www.linkedin.com/in/anthony-galabay/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                      
+                    </div>
+                    <div class="name-profession">
+                        <span class="name">Anthony Galabay</span>
+                        <span class="profession">Lead Developer</span>
+                    </div>
+                    
+                    <div class="about">
+                        <p>He's passionate about using his technical knowledge and leadership skills to drive the development of innovative  solutions that serve the users.</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="swiper-slide card">
+                <div class="box3"></div>
+                <div class="card-content">
+                    <div class="image">
+                      <img src="romeo.jpg" alt="">
+                    </div>
+                    <div class="media-icons">
+                      <a href="https://www.linkedin.com/in/romeo-alec-suyat-darvin-893709257?fbclid=IwAR0pjud_kX1b5UT3IocHKIgQPMswj26RRvAEWaR6V5yD_DWNPQLi6_zk3b8" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="name-profession">
+                        <span class="name">Romeo Darvin</span>
+                        <span class="profession">Researcher</span>
+                    </div>
+                    
+                    <div class="about">
+                        <p>He believe in breaking down complex problems into smaller, manageable parts, and using a combination of creativity and logical thinking to find the best solution.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide card">
+              <div class="box3"></div>
+              <div class="card-content">
+                  <div class="image">
+                    <img src="kimbert.jpg" alt="">
+                  </div>
+                  <div class="media-icons">
+                    <a href="https://www.linkedin.com/in/kimbertsoriano/?fbclid=IwAR1qbyvnVOWLGEaSo6QlxEQje8ZDOG1B9ZgKTocIyeNh7MINtVYD_qkYfCA" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                  <div class="name-profession">
+                      <span class="name">Kimbert Soriano</span>
+                      <span class="profession">analysis</span>
+                  </div>
+                  
+                  <div class="about">
+                      <p>He gather and analyze data, spot patterns and trends, and offer opinions and suggestions to assist my team in making wise choices.</p>
+                  </div>
+                  
+              </div>
+          </div>
+          <div class="swiper-slide card">
+            <div class="box3"></div>
+            <div class="card-content">
+                <div class="image">
+                  <img src="lambino.jpg" alt="">
+                </div>
+                <div class="media-icons">
+                  <a href="https://www.linkedin.com/in/christian-dioquino-lambino-3b0737257/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="name-profession">
+                    <span class="name">Christian Lambino</span>
+                    <span class="profession">Graphic Designer</span>
+                </div>
+                
+                <div class="about">
+                    <p>He is a skilled content creator with a gift for developing engaging, informative, and shareable content that engages audiences.</p>
+                </div>
+               
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</section>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- initializing swiper slider -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      grabCursor: true,
+      autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    </script>
+
+    <!---END OF TEAM SECTION-->
+
+<!--start of footer-->
+<footer class="footer">
+  <div class="footer__addr">
+    <h1>The Aviary</h1>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title1">Follow Us</h2>
+
+      <ul class="nav__ul2">
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100088494545441" target="_blank"><i class="fab fa-facebook"></i></a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/aviaryldn?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+        </li>
+            
+        <li>
+          <a href="https://www.instagram.com/aviaryofficial/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </li>
+    
+    
+    
+    
+    
+
+  
+  <div class="legal">
+    <p>&copy; 2023 The Aviary. All rights reserved.</p>
+    
+    <div class="legal__links">
+      <span>Made by <span class="heart">♥</span> Aviary</span>
+    </div>
+  </div>
+</footer>
+
+  
+</body>
+</html>

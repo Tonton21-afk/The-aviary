@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="aviaary.css" type="text/css"> 
+  <link rel="stylesheet" href="lightbox.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Document</title>
+</head>
+<body>
+  <!-----nav and home------->
+  <header>
+    <div class="logo">
+      <img src="aviary_logo_modified.png" alt="Logo">
+  </div>
+  <ul class="nav_area">
+    <li><a class="active" href="#home">HOME</a></li>                     
+    <li><a href="#menu">MENU </a></li>
+    <li><a href="reservations.html">RESERVATIONS</a></li>
+    <li><a href="about us.html">ABOUT US</a></li>
+    <li><a href="contacts.html">CONTACT US</a></li>                 
+  </ul>
+  </header>
+  <!--end of nav-->
+  <!--home start-->
+  <div class="video-clip">  
+    <video autoplay loop muted plays-inline class="background-clip">
+        <source src="Aviary_vid.mp4" type="video/mp4">
+    </video>
+  </div>
+  <!---js script--->
+  <script src="lightbox-plus-jquery.js"></script>
+  <script src="test.js"></script>
+  <!---end of js-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  
+  <div class="container" id="home"> 
+    <!--content-->
+            <div class="content">
+                <h1>Welcome</h1>
+                <h2>to the Aviary</h2>
+                <p>The Aviary Restaurant is a magical dining destination. Our menu features delicious dishes inspired by cuisines from around the world, Enjoy signature cocktails like the "Bird's Nest" while marveling at the vibrant colors of tropical birds. A perfect spot for a special occasion or romantic dinner.
+            </div>
+            <div class="video">
+                <div class="video-clip">
+                    <video autoplay loop muted plays-inline class="background-clip">
+                        <source src="Aviary_vid.mp4" type="video/mp4">
+                    </video>
+            </div>
+        </div>
+    </div>
+    <div class="Best">
+        <h1>Best Seller</h1>
+        <div class="box-1">
+          <a href="menu/Pains au Chocolat.png" data-lightbox="models">
+            <img src = "menu/Pains au Chocolat.png" alt = "food image">
+          </a>
+        </div>
+        <div class="box-2">
+          <a href="menu/Guava, Grapefruit, and Rosemary Agua Fresca.png" data-lightbox="models">
+            <img src = "menu/Guava, Grapefruit, and Rosemary Agua Fresca.png" alt = "food image">
+          </a>
+        </div>
+        <div class="box-3">
+          <a href="menu/Kung Pao Chicken.png" data-lightbox="models">
+            <img src = "menu/Kung Pao Chicken.png" alt = "food image">
+          </a>
+        </div>
+
+  </div>
+  <!-----COUPON---->
+  <div class="background-coupon">
+    <h1>Exclusive Discounts</h1>
+    <div class="coupon1">
+        <div class="container2">
+            <div class="coupon-card">
+                <img src="aviary_logo_modified.png" class="logo2">
+                <h3>20% Birthday<br>Gift Voucher</h3>
+            <div class="coupon-row">
+                <span id="birth">Birthdate20</span>
+                <button onclick="copyToClipboard('#birth')">Copy Code</button>
+            </div>
+            <p>Valid till: 20Dec, 2023</p>
+        </div>
+
+        <div class="coupon-card2">
+            <img src="aviary_logo_modified.png" class="logo2">
+            <h3>30% Holy Week<br>Gift Voucher</h3>
+        <div class="coupon-row">
+            <span id="puto">HolyWeek30</span>
+            <button onclick="copyToClipboard('#puto')">Copy Code</button>
+            
+        </div>
+        
+        <p>Valid till: 31May, 2023</p>
+    </div>
+    </div>
+    </div>
+  </div>
+
+<!-----END of coupon ------>
+ <!---Menu Start---->
+ <section class="menu" id="menu">
+  <h1 class="heading"> Delicious Menu </h1>
+
+  <div class="box-container">
+    
+
+    <div class="box">
+      <a href="menu/Late Summer Tomatoes With Fresh Herbs.png" data-lightbox="models">
+        <img src = "menu/Late Summer Tomatoes With Fresh Herbs.png" alt = "">
+      </a>
+      <div class="menu-content">
+        <h4>Late Summer Tomatoes <span>₱180</span></h4>
+        <p>Red wine vinegar, dill leaves, olive oil, tomatoes, lemon juice</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <a href="menu/Caesar Salad.png" data-lightbox="models">
+        <img src = "menu/Caesar Salad.png" alt = "">
+      </a>
+      <div class="menu-content">
+        <h4>Caesar Salad <span>₱300</span> </h4>
+        <p>Red wine vinegar, dijon mustard, romaine lettuce</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <a href="menu/Smashed Green Bean Salad With Crispy Shallots.png" data-lightbox="models">
+        <img src = "menu/Smashed Green Bean Salad With Crispy Shallots.png" alt = "">
+      </a>
+      <div class="menu-content">
+        <h4>Smashed Green Bean salad<span>₱200</span> </h4>
+        <p>Green beans, fresh orange juice, fish sauce, crispy fried, olive</p>
+      </div>
+    </div>
+    
+    <div class="box">
+      <a href="menu/Fennel Salad With Mustard Vinaigrette.png" data-lightbox="models">
+        <img src = "menu/Fennel Salad With Mustard Vinaigrette.png" alt = "">
+      </a>
+      <div class="menu-content">
+        <h4> Fennel Salad With Mustard<span>₱640</span> </h4>
+        <p> Red wine vinegar, pine nuts, dijon mustard, olive</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <a href="menu/Scallion Salad With Sesame.png" data-lightbox="models">
+        <img src = "menu/Scallion Salad With Sesame.png" alt = "">
+      </a>
+      <div class="menu-content">
+        <h4>Scallion Salad With Sesame<span>₱420</span> </h4>
+        <p>Sesame oil, korean chili powder, rice vinegar, sugar, radicchio, olive oil</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <a href="menu/cucumber salad with red onion.png" data-lightbox="models">
+        <img src = "menu/cucumber salad with red onion.png" alt = "">
+      </a>
+      <div class="menu-content">
+        <h4>cucumber salad with onion <span>₱380</span> </h4>
+        <p>White wine vinegar, red onion, cucumbers, sugar,</p>
+      </div>
+    </div>
+  </div>
+
+  
+    <div class="show-more-btn">
+      <a href="food.html" class="btn-1">Show More Menu</a>
+    </div>
+ </section>
+ 
+
+
+
+ <!--start of footer-->
+ <footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">The Aviary</h1>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title1">Follow Us</h2>
+
+      <ul class="nav__ul2">
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100088494545441" target="_blank"><i class="fab fa-facebook"></i></a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/aviaryldn?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+        </li>
+            
+        <li>
+          <a href="https://www.instagram.com/aviaryofficial/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </li>
+    
+    
+    
+
+  
+  <div class="legal">
+    <p>&copy; 2023 The Aviary. All rights reserved.</p>
+    
+    <div class="legal__links">
+      <span>Made by <span class="heart">♥</span> Aviary</span>
+    </div>
+  </div>
+</footer>
+  
+</body>
+</html>

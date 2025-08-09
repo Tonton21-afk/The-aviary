@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    
+}
+body{
+    overflow-x: hidden;
+    
+    background-color: #ece8e1;
+    font-family: 'Open Sans', sans-serif;
+}
+/*header*/
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 20px 10px;
+    height: 80px;
+    z-index: 100000;
+    background-color: #000000be;
+}
+header.sticky{
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.986);
+
+}
+.nav_area{
+  position: relative;
+  left: 300px;
+}
+.logo{
+    position: relative;
+    left: 300px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    
+}
+a{
+    font-size: 20px;
+    transition: 0.5s all ease;
+}
+header ul{
+    list-style: none;
+    margin: auto;
+    display: flex;
+    text-decoration: none;
+}
+header ul li{
+    position: relative;
+    list-style:none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    letter-spacing: 2px;
+    font-weight: 300px;
+    font-size: 14px;
+    transition: 0.6s;
+}
+ul li a:hover{
+    color: red;
+    transform: scale(1.1);
+}
+
+li .active{
+  color: rgb(228, 22, 22);
+}
+
+/*end of header */
+
+/*Start of Form*/
+.elem-group1{
+  width: 100%;
+    display: inline-block;
+    float: none;
+    position: relative;
+    left: 80px;
+    top: 55px;
+    margin: 20px 10px;
+}
+
+.elem-group2{
+  width: 100%;
+  display: inline-block;
+  float: none;
+  position: relative;
+  top: -60px;
+  left: 800px;
+  margin: 20px 10px;
+}
+
+.elem-group3{
+  width: 100%;
+  display: inline-block;
+  float: none;
+  position: relative;
+  top: -70px;
+  left: 800px;
+  margin: 20px 10px;
+  z-index: 10000;
+}
+
+.elem-group4{
+
+  width: 100%;
+  display: inline-block;
+  float: none;
+  position: relative;
+  left: 90px;
+  top: -170px;
+    
+}
+.elem-group5{
+  width: 100%;
+    display: inline-block;
+    float: none;
+    position: relative;
+    left: 80px;
+    top: -170px;
+    margin: 20px 10px;
+}
+.elem-group6{
+  width: 100%;
+    display: inline-block;
+    float: none;
+    position: relative;
+    left: 800px;
+    top: -285px;
+    margin: 20px 10px;
+}
+#container {
+    align-items: center;
+    border: solid 3px #474544;
+    margin:  auto;
+    position: relative;
+    top: 100px;
+    height: 800px;
+    width: 1500px;
+    
+}
+
+.R-h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #000000;
+    font-size: 60px;
+    font-weight: 700px;
+    letter-spacing: 7px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.R-h4{
+  font-family: 'Courier New', monospace;
+  font-size: 35px;
+  font-weight: 300px;
+  margin-left: 40%;
+}
+/*Info*/
+div.elem-group {
+    margin: 20px 40px;
+    margin-bottom: 1px;
+  }
+  
+  div.elem-group.inlined {
+    width: 10%;
+    top:-250px;
+    display: inline-block;
+    float: none;
+    position: relative;
+    left: 80px;
+    margin: 20px 10px;
+  }
+.voucher{
+   
+    width: 40%;
+    top:-250px;
+    display: inline-block;
+    float: none;
+    position: relative;
+    left: 80px;
+    margin: 20px 10px;
+    margin: 10px 10px;
+  
+}
+  
+  label {
+    display:block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 5px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 30%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 110%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  
+.btnn {
+    height: 80px;
+    width: 250px;
+    background:  #ece8e1;
+    border-color: black;
+    color: white;
+    font-size: 1.25em;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #000000;
+    top: -250px;
+    right: 160px;
+    position: relative;
+
+  }
+  
+.btnn:hover {
+    border: 3px solid black;
+    background: #474544;
+    color: #F2F3EB;
+}
+
+
+
+
+  /*start of footer*/
+.footer {
+  position: relative;
+  align-items: center;
+  bottom: -280px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 60px 60px;
+  color: #ffffff;
+  background-color: black;
+  border-top: 1px solid #ffffff;
+}
+
+.footer > * {
+  flex:  1 100%;
+}
+
+.footer__addr {
+  position: relative;
+  margin-right: none;
+  margin-bottom: 2em;
+}
+
+.footer__logo {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 200;
+  font-size: 80px;
+  text-transform: lowercase;
+  position: relative;
+  left: 100px;
+  top: 50px;
+  color: white;
+}
+
+.footer__addr h2 {
+  margin-top: 1.3em;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+.nav__title1 {
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+  font-style: normal;
+  position: relative;
+  bottom: -25px;
+  left: 900px;
+}
+.nav__ul2 a{
+  font-size: 30px;
+  color: white;
+}
+.nav__ul2 {
+  position: relative;
+  bottom: -40px;
+  left: 860px;   
+}
+
+
+
+.footer address {
+  font-style: normal;
+  color: #ffffff;
+  position: relative;
+  bottom: 0;
+  
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+  padding: 0;
+}
+
+
+
+.footer li {
+  display: inline;
+  position: relative;
+  margin: 10px;
+  color: white;
+  
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+  
+}
+
+
+
+.nav__ul a {
+  color: #fdfdfd;
+}
+.nav__ul li {
+  color: #999;
+  display: block;
+}
+
+
+
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #999;
+}
+.legal p{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  right: 600px;
+}
+  
+.legal__links {
+
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  left: 700px;
+}
+
+.heart {
+  color: #f00808;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: none;
+  }
+}
+
+@media screen and (min-width: 40.375em) {
+  .footer__nav > * {
+    flex: -1;
+  }
+  
+  .nav__item--extra {
+    flex-grow: 2;
+  }
+  
+  .footer__addr {
+    flex: 1 0px;
+  }
+  
+  .footer__nav {
+    flex: 2 0px;
+  }
+}
+
+
+
+

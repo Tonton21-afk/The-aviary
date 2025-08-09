@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+  
+}
+body{
+    overflow-x: hidden;
+    background-color: #ece8e1;
+    font-family: 'Open Sans', sans-serif;
+}
+/*header*/
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transition: 0.6s;
+  padding: 20px 10px;
+  height: 80px;
+  z-index: 100000;
+  background-color: #000000be;
+}
+header.sticky{
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.986);
+
+}
+.nav_area{
+  position: relative;
+  left: 300px;
+}
+.logo{
+  position: relative;
+  left: 300px;
+}
+.logo img{
+  width: 100px;
+  height: 100px;
+  
+}
+a{
+  font-size: 20px;
+  transition: 0.5s all ease;
+}
+header ul{
+  list-style: none;
+  margin: auto;
+  display: flex;
+  text-decoration: none;
+}
+header ul li{
+  position: relative;
+  list-style:none;
+}
+header ul li a{
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+  letter-spacing: 2px;
+  font-weight: 300px;
+  font-size: 14px;
+  transition: 0.6s;
+}
+ul li a:hover{
+  color: red;
+  transform: scale(1.1);
+}
+
+li .active{
+color: rgb(228, 22, 22);
+}
+
+/*end of header */
+
+/*contact body*/
+.content h1{
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  position: relative;
+  align-self: center;
+  top: 120px;
+  left: 840px;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+.contacts{
+  align-items: center;
+  position: relative;
+  top: 30px;
+  left: 400px;
+  height: 700px;
+  width: 115vh;
+  margin-top: 30px;
+  margin: none;
+  font-family: 'Spectral SC', serif;
+  
+}
+.container2 {
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
+}
+.container2 h2{
+  position: relative;
+  left: 150px;
+  top: -60px;
+  font-family: 'Spectral SC', serif;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #000000;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #000000;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #000000;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.accordion button{
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #090a0a;
+}
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion-title{
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.accordion .accordion-content p {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+/*team section*/
+.team-title{
+  position: relative;
+  top: -40px;
+  left:-12px;
+}
+.team{
+  position: relative;
+  bottom: -109px;
+  left: 440px;
+}
+.card{
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+    height: 460px;
+    width: 406px;
+    margin: 20px 0px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    z-index: 1000;
+}
+.swiper{
+    width: 1100px;
+    margin: auto;
+}
+.team{
+    position: relative;
+    width: 450px;
+    width: 1075px;
+    display: flex;
+    align-items: center;
+}
+
+.team .card .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #fff;
+    box-shadow: 0px -1px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.team .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.box1{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    border-radius: 20px 20px 0 0;
+    background: linear-gradient(106.32deg, #f30f0f 14.23%,
+    rgba(255, 25, 25, 0) 139.97%);
+}
+.box2{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    border-radius: 20px 20px 0 0;
+    background: linear-gradient(106.32deg, #f30f0f 14.23%,
+    rgba(255, 25, 25, 0) 139.97%);
+}
+.box3{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    border-radius: 20px 20px 0 0;
+    background: linear-gradient(106.32deg, #f30f0f.23%,
+    rgba(255, 25, 25, 0) 139.97%);
+}
+.card .media-icons{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card .media-icons i{
+    color: #fff;
+    opacity: 0.7;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.card .media-icons i:hover{
+    opacity: 1;
+}
+.card .name-profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.name-profession .name{
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+}
+.name-profession .profession{
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+}
+.card .rating{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+.card .rating i{
+    font-size: 18px;
+    margin: 0 2px;
+    color: rgb(241, 24, 24);
+}
+.about p{
+  position: relative;
+  top: 20px;
+
+}
+section .card .about{
+    display: flex;
+    text-align: center;
+    color: #000000;
+    margin-top: 45px;
+    margin-bottom: 5px; 
+}
+
+.card .button button{
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+.card .button button:hover{
+    opacity: 0.8;
+}
+.swiper-pagination{
+    position: absolute;
+    top: 490px;
+}
+.swiper-pagination-bullet{
+    height: 15px;
+    position: relative;
+    right: 30px;
+    bottom: -60px;
+    width: 15px;
+    border-radius: 25px;
+    background: #ff0606;
+}
+.swiper-button-next{
+  opacity: 0.7;
+  color: #f00505;
+  transition: all 0.10s ease;
+  position: relative;
+  left: 20px;
+  top: 0px;
+  
+  
+}
+.swiper-button-prev{
+  opacity: 0.7;
+  color: #fa0d0d;
+  transition: all 0.10s ease;
+  position: relative;
+  top: 0px;
+  left: -1100px;
+  
+
+}
+
+    
+.swiper-button-next:hover, .swiper-button-prev:hover{
+    opacity: 1;
+    color: #f0260b;
+}
+
+
+
+/*start of footer*/
+.footer {
+  position: relative;
+  align-items: center;
+  bottom: -250px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px 40px 75px 75px;
+  color: #ffffff;
+  background-color: black;
+  border-top: 1px solid #ffffff;
+}
+
+.footer > * {
+  flex:  1 100%;
+}
+
+.footer__addr {
+  position: relative;
+  margin-right: none;
+  margin-bottom: 2em;
+}
+
+.footer__addr h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 200;
+  font-size: 80px;
+  text-transform: lowercase;
+  position: absolute;
+  left: 100px;
+  top: -10px;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.nav__title1 {
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+  font-style: normal;
+  position: relative;
+  bottom: -25px;
+  left: 900px;
+}
+.nav__ul2 a{
+  font-size: 30px;
+  color: white;
+}
+.nav__ul2 {
+  position: relative;
+  bottom: -40px;
+  left: 860px;   
+}
+
+
+
+.footer address {
+  font-style: normal;
+  color: #ffffff;
+  position: relative;
+  bottom: 0;
+  
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+  padding: 0;
+}
+
+
+
+.footer li {
+  display: inline;
+  position: relative;
+  margin: 10px;
+  color: white;
+  
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+  
+}
+
+
+
+.nav__ul a {
+  color: #fdfdfd;
+}
+.nav__ul li {
+  color: #999;
+  display: block;
+}
+
+
+
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #999;
+}
+.legal p{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  right: 600px;
+}
+  
+.legal__links {
+
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  left: 700px;
+}
+
+.heart {
+  color: #f00808;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: none;
+  }
+}
+
+@media screen and (min-width: 40.375em) {
+  .footer__nav > * {
+    flex: -1;
+  }
+  
+  .nav__item--extra {
+    flex-grow: 2;
+  }
+  
+  .footer__addr {
+    flex: 1 0px;
+  }
+  
+  .footer__nav {
+    flex: 2 0px;
+  }
+}
+
+
+
+

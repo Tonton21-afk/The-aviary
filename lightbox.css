@@ -1,0 +1,75 @@
+body.lb-disable-scrolling {
+    overflow: hidden;
+  }
+  
+  .lightboxOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: black;
+    opacity: 0.8;
+    display: none;
+  }
+  
+  .lightbox {
+    color: rgba(240, 248, 255, 0);
+    position: absolute;
+    width: auto;
+    height: 10px;
+    
+  }
+  
+  .lb-image {
+    display: block;
+    height: 10vh;
+    width: 100vh;
+    position: relative;
+    z-index: 10000;
+    top: 100px;
+    left: 580px;
+    border-radius: 3px;
+    border: 3px solid white;
+
+  }
+
+  
+  
+  .lightbox a img {
+    border: none;
+  }
+  
+  .lb-outerContainer {
+    position: relative;
+    *zoom: 1;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 4px;
+  
+    /* Background color behind image.
+       This is visible during transitions. */
+    
+  }
+  
+  .lb-data .lb-close {
+    z-index: 10000;
+    position: relative;
+    top: -730px;
+    left: 620px;
+    display: block;
+    float: right;
+    width: 30px;
+    height: 60px;
+    background: url(close.png) top right no-repeat;
+    text-align: right;
+    outline: none;
+    opacity: 1.1;
+    
+  }
+  
+  .lb-data .lb-close:hover {
+    cursor: pointer;
+
+  }
+  

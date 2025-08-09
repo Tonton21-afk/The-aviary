@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="contacts.css" type="text/css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  
+  <script src="contacts.js"></script>
+ 
+    <!-----nav and home------->
+  <header>
+    <div class="logo">
+      <img src="aviary_logo_modified.png" alt="Logo">
+  </div>
+  <ul class="nav_area">
+    <li><a href="test.html">HOME</a></li>                     
+    <li><a href="food.html">MENU </a></li>
+    <li><a href="reservations.html">RESERVATIONS</a></li>
+    <li><a href="about us.html">ABOUT US</a></li>
+    <li><a class="active" href="contacts.html">CONTACT US</a></li>                 
+  </ul>
+  </header>
+  <!--end of nav-->
+  <!---Start of body-->
+
+  <div class="contacts">
+
+    <div id="container">
+      <h1 class="title-h1">&bull; Contact us &bull;</h1>
+    
+      <form action="#" id="contact_form">
+        <div class="name">
+          <label for="name"></label>
+          <input type="text" placeholder="Name" name="name" id="name_input" required>
+        </div>
+        <div class="email">
+          <label for="email"></label>
+          <input type="email" placeholder="Email" name="email" id="email_input" required>
+        </div>
+        <div class="telephone">
+          <label for="name"></label>
+          <input type="text" placeholder="Number" name="telephone" id="telephone_input" required>
+        </div>
+        <div class="message">
+          <label for="message"></label>
+          <textarea name="message" placeholder="How can we help you?" id="message_input" cols="30" rows="5" required></textarea>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Send " id="form_button" />
+        </div>
+      </form>
+      <!-- // End form -->
+    </div>
+
+
+     <!--info start-->
+
+     <div class="info">
+      <h1>Contacts</h1>
+      <h3><i class="fa-solid fa-phone"></i> </h3>
+      <h2 >09361728630</h2>
+      <h3><i class="fa-solid fa-envelope"></i></h3>
+      <h2 >75  475 5413</h2>
+      <h3><i class="fa-solid fa-tty"></i></h3>
+      <h2 >TheAviary@gmail.com</h2>
+
+
+    </div>
+
+    
+
+    <!--MAP-->
+    <div class="map_title">Location Map</div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61357.12691421582!2d120.34540861890119!3d16.022860508117727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339143cd9bfe707b%3A0x4b353668a456ba13!2sDarkz%20mini%20aviary!5e0!3m2!1sen!2sph!4v1681023799497!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+
+  </div>
+
+<!--start of footer-->
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">The Aviary</h1>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title1">Follow Us</h2>
+
+      <ul class="nav__ul2">
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100088494545441" target="_blank"><i class="fab fa-facebook"></i></a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/aviaryldn?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+        </li>
+            
+        <li>
+          <a href="https://www.instagram.com/aviaryofficial/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </li>
+    
+    
+
+  
+  <div class="legal">
+    <p class="legal_p">&copy; 2023 The Aviary. All rights reserved.</p>
+    
+    <div class="legal__links">
+      <span>Made by <span class="heart">♥</span> Aviary</span>
+    </div>
+  </div>
+</footer>
+
+
+  
+</body>
+</html>

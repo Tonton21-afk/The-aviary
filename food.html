@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Food Menu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="food.css">
+    <link rel="stylesheet" href="lightbox.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+
+  <!-----nav and home------->
+   <header>
+    <div class="logo">
+      <img src="aviary_logo_modified.png" alt="Logo">
+  </div>
+  <ul class="nav_area">
+    <li><a href="test.html">HOME</a></li>                     
+    <li><a class="active" href="food.html">MENU </a></li>
+    <li><a href="reservations.html">RESERVATIONS</a></li>
+    <li><a href="about us.html">ABOUT US</a></li>
+    <li><a href="contacts.html">CONTACT US</a></li>             
+  </ul>
+  </header>
+  <!--end of nav-->
+
+    <section class = "menu">
+      <div class = "menu-container">
+        <div class = "menu-head">
+          <h2 class="title1">Food Menu</h2>
+        </div>
+
+        <div class = "menu-btns">
+          <button type = "button" class = "menu-btn active-btn" id = "featured">Main Course</button>
+          <button type = "button" class = "menu-btn" id = "today-special">Appetizer</button>
+          <button type = "button" class = "menu-btn" id = "new-arrival">Drinks</button>
+          <button type = "button" class = "menu-btn" id = "desserts">Desserts</button>
+          <button type = "button" class = "menu-btn" id = "best-seller">Best Seller</button>
+        </div>
+
+        <div class = "food-items">
+
+          <!----Main Course---->
+          <script src="lightbox-plus-jquery.js"></script>
+      <!-- item -->
+      <div class = "food-item featured">
+          <div class = "food-img">
+            <a href="menu/Seared Scallops With Basil Risotto.png" data-lightbox="models">
+              <img src = "menu/Seared Scallops With Basil Risotto.png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Scallops With Basil Risotto</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱700.00</h3>
+            <p class = "category">Description: <span> Pineapple juice, sea scallops, arborio rice, parmesan cheese</span></p>
+          </div>
+          
+        </div>
+        <!-- end of item -->
+  
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <a href="menu/Marinated Chicken Breasts With Grilled Pineapple Relish.png" data-lightbox="models">
+              <img src = "menu/Marinated Chicken Breasts With Grilled Pineapple Relish.png" alt = "food image">
+            </a>
+           
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Chicken Breasts With Pineapple</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱400.00</h3>
+            
+            <p class = "category">Description: <span>Pineapple, chicken breasts, roasted garlic, honey, red onion</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+  
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <a href="menu/mushrooom.png" data-lightbox="models">
+              <img src = "menu/mushrooom.png" alt = "food image">
+            </a>  
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Wild Mushroom Risotto</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱515.00</h3>
+            
+            <p class = "category">Description: <span>White wine, wild mushroom, arborio rice, heavy cream</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+  
+  
+  
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <a href="menu/rosemary lamb.png" data-lightbox="models">
+              <img src = "menu/rosemary lamb.png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Rosemary Rack of Lamb With Roasted Potatoes</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱1300.00</h3>
+            
+            <p class = "category">Description: <span>Yukon gold potatoes, white miso paste, honey, rosemary</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+  
+  
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <a href="menu/Bouillabaisse.png" data-lightbox="models">
+              <img src = "menu/Bouillabaisse.png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Bouillabaisse</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱705.00</h3>
+            
+            <p class = "category">Description: <span>Sea bass, crab, mussels, french bread, red hot pepper</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+  
+  
+        <!-- item -->
+        <div class = "food-item featured">
+          <div class = "food-img">
+            <a href="menu/Kung Pao Chicken.png" data-lightbox="models">
+              <img src = "menu/Kung Pao Chicken.png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Kung Pao Chicken</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱899.00</h3>
+            
+            <p class = "category">Description: <span> Boneless chicken breast, water chestnuts, white wine, soy</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+  
+          <!----END OF Main Course-->
+  
+        <!----Appetizer---->
+      <!-- item -->
+      <div class = "food-item today-special">
+          <div class = "food-img">
+            <a href="menu/Smoked Trout Croquettes.png" data-lightbox="models">
+              <img src = "menu/Smoked Trout Croquettes.png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Smoked Trout Croquettes</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱470.00</h3>
+            
+            <p class = "category">Description: <span>Smoked trout, lemon, parmesan, russet potatoes</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+  
+        <!-- item -->
+        <div class = "food-item today-special">
+          <div class = "food-img">
+            <a href="menu/Lumpia.png" data-lightbox="models">
+              <img src = "menu/Lumpia.png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Lumpia</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱90.00</h3>
+            
+            <p class = "category">Description: <span>Ground pork, soy sauce, lumpia wrappers, green cabbage</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+  
+        <!-- item -->
+        <div class = "food-item today-special">
+          <div class = "food-img">
+            <a href="menu/Smoky Carrot Dip.png" data-lightbox="models">
+              <img src = "menu/Smoky Carrot Dip.png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Smoky Carrot Dip</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱329.00</h3>
+            
+            <p class = "category">Description: <span>Hot smoked, carrots, olive oil, lemon juice, almonds</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+  
+        <!-- item -->
+        <div class = "food-item today-special">
+          <div class = "food-img">
+            <a href="menu/Broiled Goat Cheese Toasts .png" data-lightbox="models">
+              <img src = "menu/Broiled Goat Cheese Toasts .png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Broiled Goat Cheese Toasts </h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱305.00</h3>
+            
+            <p class = "category">Description: <span>Goat cheese, swiss chard, red pepper flakes, olive oil, lemon</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+  
+        <!-- item -->
+        <div class = "food-item today-special">
+          <div class = "food-img">
+            <a href="menu/Crab Louie Salad Lettuce Cups.png" data-lightbox="models">
+              <img src = "menu/Crab Louie Salad Lettuce Cups.png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Crab Louie Salad Lettuce Cups</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱150.00</h3>
+            
+            <p class = "category">Description: <span>Sweet chili sauce, lump crab meat, cherry tomatoes</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+  
+        <!-- item -->
+        <div class = "food-item today-special">
+          <div class = "food-img">
+            <a href="menu/Dakgangjeong.png" data-lightbox="models">
+              <img src = "menu/Dakgangjeong.png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Dakgangjeong</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱407.00</h3>
+            
+            <p class = "category">Description: <span>Apple cider vinegar, soy sauce, brown sugar, skinless chicken</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+          <!--END OF Appetizer-->
+  
+  
+          <!----START OF Drinks-->
+  
+  
+          <!-- item -->
+          <div class = "food-item new-arrival">
+              <div class = "food-img">
+                <a href="menu/Guava, Grapefruit, and Rosemary Agua Fresca.png" data-lightbox="models">
+                  <img src = "menu/Guava, Grapefruit, and Rosemary Agua Fresca.png" alt = "food image">
+                </a>
+              </div>
+              <div class = "food-content">
+                <h2 class = "food-name">Rosemary Agua Fresca</h2>
+                <div class = "line"></div>
+                <h3 class = "food-price">₱129.00</h3>
+                
+                <p class = "category">Description: <span> Fresh guavas, sugar, fresh rosemary</span></p>
+              </div>
+            </div>
+            <!-- end of item -->
+  
+            <!-- item -->
+            <div class = "food-item new-arrival">
+              <div class = "food-img">
+                <a href="menu/Art Basil.png" data-lightbox="models">
+                  <img src = "menu/Art Basil.png" alt = "food image">
+                </a>
+              </div>
+              <div class = "food-content">
+                <h2 class = "food-name">Art Basil</h2>
+                <div class = "line"></div>
+                <h3 class = "food-price">₱99.00</h3>
+                
+                <p class = "category">Description: <span>Green tea, pineapple juice, basil syrup, egg white, lemon</span></p>
+              </div>
+            </div>
+            <!-- end of item -->
+  
+          
+  
+  
+            <!-- item -->
+            <div class = "food-item new-arrival">
+              <div class = "food-img">
+                <a href="menu/Frozen Moscow Mule.png" data-lightbox="models">
+                  <img src = "menu/Frozen Moscow Mule.png" alt = "food image">
+                </a>
+              </div>
+              <div class = "food-content">
+                <h2 class = "food-name">Frozen Moscow Mule</h2>
+                <div class = "line"></div>
+                <h3 class = "food-price">₱200.00</h3>
+                
+                <p class = "category">Description: <span> Dark brown sugar, vodka, ginger, lime juice, glass jar</span></p>
+              </div>
+            </div>
+            <!-- end of item -->
+            <!-- item -->
+            <div class = "food-item new-arrival">
+              <div class = "food-img">
+                <a href="menu/Martini-on-the-Rocks.png" data-lightbox="models">
+                  <img src = "menu/Martini-on-the-Rocks.png" alt = "food image">
+                </a>
+              </div>
+              <div class = "food-content">
+                <h2 class = "food-name">Martini-on-the-Rocks</h2>
+                <div class = "line"></div>
+                <h3 class = "food-price">₱320.00</h3>
+                
+                <p class = "category">Description: <span>Gin, olives, dry vermouth</span></p>
+              </div>
+            </div>
+            <!-- end of item -->
+             <!-- item -->
+             <div class = "food-item new-arrival">
+              <div class = "food-img">
+                <a href="menu/Hot Toddy.png" data-lightbox="models">
+                  <img src = "menu/Hot Toddy.png" alt = "food image">
+                </a>
+              </div>
+              <div class = "food-content">
+                <h2 class = "food-name">Hot Toddy</h2>
+                <div class = "line"></div>
+                <h3 class = "food-price">₱180.00</h3>
+                
+                <p class = "category">Description: <span>Whiskey, honey, lemon juice, cinnamon stick</span></p>
+              </div>
+            </div>
+            <!-- end of item -->
+  
+             <!-- item -->
+             <div class = "food-item new-arrival">
+              <div class = "food-img">
+                <a href="menu/Classic Milk Tea.png" data-lightbox="models">
+                  <img src = "menu/Classic Milk Tea.png" alt = "food image">
+                </a>
+              </div>
+              <div class = "food-content">
+                <h2 class = "food-name">Classic Milk Tea</h2>
+                <div class = "line"></div>
+                <h3 class = "food-price">₱126.00</h3>
+                
+                <p class = "category">Description: <span>Sweetened condensed milk, brown sugar, black tea bags</span></p>
+              </div>
+            </div>
+            <!-- end of item -->
+              <!-- END OF NEW ARRIVAL -->
+
+
+
+          <!---START OF Desserts-->
+
+          <!-- item -->
+          <div class = "food-item desserts">
+            <div class = "food-img">
+              <a href="menu/Apple Sticky Toffee Pudding.png" data-lightbox="models">
+                <img src = "menu/Apple Sticky Toffee Pudding.png" alt = "food image">
+              </a>
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Apple Sticky Toffee Pudding</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">₱307.00</h3>
+              
+              <p class = "category">Description: <span>Vanilla ice cream, brown sugar, apples, heavy cream, cinnamon</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item desserts">
+            <div class = "food-img">
+              <a href="menu/Chocolate Mousse.png" data-lightbox="models">
+                <img src = "menu/Chocolate Mousse.png" alt = "food image">
+              </a>
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Chocolate Mousse</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">₱102.00</h3>
+              
+              <p class = "category">Description: <span>Whipped cream, eggs, caster sugar, cooking chocolate, full fat</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+
+          <!-- item -->
+          <div class = "food-item desserts">
+            <div class = "food-img">
+              <a href="menu/Pains au Chocolat.png" data-lightbox="models">
+                <img src = "menu/Pains au Chocolat.png" alt = "food image">
+              </a>
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Pains au Chocolat</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">₱320.00</h3>
+              
+              <p class = "category">Description: <span>Croissant dough, heavy cream, egg yolk, all purpose flour</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item desserts">
+            <div class = "food-img">
+              <a href="menu/Gâteau Nantais.png" data-lightbox="models">
+                <img src = "menu/Gâteau Nantais.png" alt = "food image">
+              </a>
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Gâteau Nantais</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">₱449.00</h3>
+              
+              <p class = "category">Description: <span>Almond flour, orange juice, vanilla bean, powdered sugar</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item desserts">
+            <div class = "food-img">
+              <a href="menu/Fortune Cookie Magic Shell Sundae.png" data-lightbox="models">
+                <img src = "menu/Fortune Cookie Magic Shell Sundae.png" alt = "food image">
+              </a>
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Fortune Cookie Magic Shell Sundae</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">₱200.00</h3>
+              
+              <p class = "category">Description: <span>Vanilla ice cream, fortune cookies, black sesame seeds</span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class = "food-item desserts">
+            <div class = "food-img">
+              <a href="menu/Joconde Cake.png" data-lightbox="models">
+                <img src = "menu/Joconde Cake.png" alt = "food image">
+              </a>
+            </div>
+            <div class = "food-content">
+              <h2 class = "food-name">Joconde Cake</h2>
+              <div class = "line"></div>
+              <h3 class = "food-price">₱180.00</h3>
+              
+              <p class = "category">Description: <span>Almond flour, cake flour, whole egg whites, powdered sugar/span></p>
+            </div>
+          </div>
+          <!-- end of item -->
+
+              <!----END OF DESSERTS-->
+
+
+              <!----START OF BEST SELLERS---->
+
+         <!-- item -->
+        <div class = "food-item best-seller">
+          <div class = "food-img">
+            <a href="menu/Kung Pao Chicken.png" data-lightbox="models">
+              <img src = "menu/Kung Pao Chicken.png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Kung Pao Chicken</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱899.00</h3>
+            
+            <p class = "category">Description: <span> Boneless chicken breast, water chestnuts, white wine, soy</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+        <!-- item -->
+      <div class = "food-item best-seller">
+        <div class = "food-img">
+          <a href="menu/Bouillabaisse.png" data-lightbox="models">
+            <img src = "menu/Bouillabaisse.png" alt = "food image">
+          </a>
+        </div>
+        <div class = "food-content">
+          <h2 class = "food-name">Bouillabaisse</h2>
+          <div class = "line"></div>
+          <h3 class = "food-price">₱705.00</h3>
+          
+          <p class = "category">Description: <span>Sea bass, crab, mussels, french bread, red hot pepper</span></p>
+        </div>
+      </div>
+      <!-- end of item --> 
+
+      <!-- item -->
+      <div class = "food-item best-seller">
+        <div class = "food-img">
+          <a href="menu/Smoked Trout Croquettes.png" data-lightbox="models">
+            <img src = "menu/Smoked Trout Croquettes.png" alt = "food image">
+          </a>
+        </div>
+        <div class = "food-content">
+          <h2 class = "food-name">Smoked Trout Croquettes</h2>
+          <div class = "line"></div>
+          <h3 class = "food-price">₱470.00</h3>
+          
+          <p class = "category">Description: <span>Smoked trout, lemon, parmesan, russet potatoes</span></p>
+        </div>
+      </div>
+      <!-- end of item -->
+
+      
+        <!-- item -->
+        <div class = "food-item best-seller">
+          <div class = "food-img">
+            <a href="menu/Lumpia.png" data-lightbox="models">
+              <img src = "menu/Lumpia.png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Lumpia</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱90.00</h3>
+            
+            <p class = "category">Description: <span>Ground pork, soy sauce, lumpia wrappers, green cabbage</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+
+        <!-- item -->
+        <div class = "food-item best-seller">
+          <div class = "food-img">
+            <a href="menu/Guava, Grapefruit, and Rosemary Agua Fresca.png" data-lightbox="models">
+              <img src = "menu/Guava, Grapefruit, and Rosemary Agua Fresca.png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Rosemary Agua Fresca</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱129.00</h3>
+            
+            <p class = "category">Description: <span> Fresh guavas, sugar, fresh rosemary</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+
+        <!-- item -->
+        <div class = "food-item best-seller">
+          <div class = "food-img">
+            <a href="menu/Pains au Chocolat.png" data-lightbox="models">
+              <img src = "menu/Pains au Chocolat.png" alt = "food image">
+            </a>
+          </div>
+          <div class = "food-content">
+            <h2 class = "food-name">Pains au Chocolat</h2>
+            <div class = "line"></div>
+            <h3 class = "food-price">₱320.00</h3>
+            
+            <p class = "category">Description: <span>Croissant dough, heavy cream, egg yolk, all purpose flour</span></p>
+          </div>
+        </div>
+        <!-- end of item -->
+
+         
+
+        
+
+
+      </div>
+    </div>
+    </section>
+
+  
+    
+    <script src="food.js"></script>
+    <!--start of footer-->
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">The Aviary</h1>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title1">Follow Us</h2>
+
+      <ul class="nav__ul2">
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100088494545441" target="_blank"><i class="fab fa-facebook"></i></a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/aviaryldn?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+        </li>
+            
+        <li>
+          <a href="https://www.instagram.com/aviaryofficial/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </li>
+    
+    
+    
+    
+
+  
+  <div class="legal">
+    <p>&copy; 2023 The Aviary. All rights reserved.</p>
+    
+    <div class="legal__links">
+      <span>Made by <span class="heart">♥</span> Aviary</span>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
